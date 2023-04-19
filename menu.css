@@ -1,0 +1,57 @@
+#navegacao-principal nav{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    width: 100%;
+}
+#menu-principal{
+    list-style-type:none;
+    padding-left: 0;
+    display: flex;
+   
+}
+
+#menu-principal li{
+    float: left;
+    background-color: rgb(245, 162, 139);
+    display: block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    height: auto;
+    width: auto;
+}
+
+#menu-principal li a{
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+}
+
+#menu-principal li:hover,
+#menu-principal li:focus-within{
+    background-color: rgb(227, 123, 97);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    width: auto;
+
+}
+#menu-principal li a:hover{
+    color: rgb(238, 232, 232);
+    
+}
+
+section{
+    flex-flow: row wrap;
+    flex: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(237, 126, 95);
+
+}
+.big-card div {
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
